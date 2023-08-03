@@ -1,6 +1,44 @@
-background-image: linear-gradient(to bottom, #ffffff, #000000);
 
 
+.quadrado img{
+    width: auto;
+    height: 150px;
+}
+.ima{
+    width: auto;
+    height: 150px;
+    left: 100px;
+}
+.inicio{
+    background-image: linear-gradient(to top left,rgb(85, 167, 209), rgb(173, 144, 167),rgb(234, 22, 191));
+    width: auto;
+    height: 1000px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
 
-
-
+.texto {
+    text-decoration: wavy;
+}
+.inicio .quadrados{
+display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.quadrado{
+background-color: #F1F6FE;
+    border: 1px solid #dc36be;
+    border-radius: 7px;
+    text-align: center;
+    padding: 15px 20px;
+    margin: 0 20px;
+    width: 230px;
+    height: 300px;
+    transition: 0.3s ease-in-out;
+}
+.quadrado:hover{
+    transform: scale(1.1);
+    box-shadow: 2px 2px 15px 1px;
+}
