@@ -1,4 +1,6 @@
-
+a {
+    text-decoration: none;
+}
 .quadrado img{
     width: auto;
     height: 150px;
@@ -40,4 +42,8 @@ background-color: #F1F6FE;
 .quadrado:hover{
     transform: scale(1.1);
     box-shadow: 2px 2px 15px 1px;
+}
+
+h3{
+    color: black;
 }
